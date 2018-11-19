@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="40dp">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="viewEnd"
+        android:text="Please Login/register to continue the payment." />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>
+
+
+
+
+

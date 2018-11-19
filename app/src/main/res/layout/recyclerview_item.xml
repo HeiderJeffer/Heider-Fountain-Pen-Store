@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="10dp"
+        android:background="#f5c3c3"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/word_title"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/holo_orange_light" />
+
+        <TextView
+            android:id="@+id/textViewDesc"
+            style="@style/word_title"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/holo_orange_light"
+            android:padding="5dp"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            style="@style/word_title"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/holo_orange_light"
+            android:padding="5dp"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/textViewCart"
+            style="@style/word_title"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:text="ADD TO CART" />
+    </LinearLayout>
+
+</LinearLayout>
