@@ -83,8 +83,8 @@ public class PaymentActivity extends AppCompatActivity{
     private static final String KEY_EXPY = "expy";
     private static final String KEY_CVC = "cvc";
     private static final String KEY_EMPTY = "";
-    private String register_url = "http://anjandash.com/member/savecard.php"; // ******
-    private String register_url2 = "http://anjandash.com/member/getcard.php"; // ******
+    private String register_url = "http://heiderjeffer.com/member/savecard.php"; // ******
+    private String register_url2 = "http://heiderjeffer.com/member/getcard.php"; // ******
 
     String cardNum;
     int expM;
@@ -328,7 +328,6 @@ public class PaymentActivity extends AppCompatActivity{
                             Toast.makeText(PaymentActivity.this, "PROCESSING PAYMENT...", Toast.LENGTH_SHORT).show();
 
                             new StripeCharge(token.getId(), "loggedin user", amount).execute();
-                            //httpPostRequest(PaymentActivity.this, "abc", "anjan8@gmail.com");
                         }
                         public void onError(Exception error) {
                             // Show localized error message
@@ -366,6 +365,8 @@ public class PaymentActivity extends AppCompatActivity{
                 @Override
                 public void run() {
                     boolean result = postData(name,token,amount);
+                    //Toast.makeText(PaymentActivity.this, "POSTDATA WORKED", Toast.LENGTH_SHORT).show();
+
                     if(result){
                         boolean chk = postData2(userEmail, itemsInCart, amount);
 
@@ -374,8 +375,11 @@ public class PaymentActivity extends AppCompatActivity{
                             myIntent.putExtra("ITEMSORDERED", itemsInCart);
                             myIntent.putExtra("TOTALPRCHARGED", amount);
                             PaymentActivity.this.startActivity(myIntent);
+
+                            //Toast.makeText(PaymentActivity.this, "INSERT SUCCEEDED", Toast.LENGTH_SHORT).show();
+
                         } else {
-                            Toast.makeText(PaymentActivity.this, "Insert failed!", Toast.LENGTH_SHORT).show();
+                            //Toast.makeText(PaymentActivity.this, "Insert failed!", Toast.LENGTH_SHORT).show();
                         }
                     }
                 }
@@ -396,7 +400,7 @@ public class PaymentActivity extends AppCompatActivity{
         boolean check = false;
 
         try {
-            URL url = new URL("http://pixellato.com/androidtest/charge.php");
+            URL url = new URL("http://heiderjeffer.com/androidtest/charge.php");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setReadTimeout(10000);
             conn.setConnectTimeout(15000);
@@ -437,7 +441,7 @@ public class PaymentActivity extends AppCompatActivity{
     public boolean postData2(String userEmail, String itemsInCart, String amount) {
         // Create a new HttpClient and Post Header
         try {
-            URL url = new URL("http://anjandash.com/member/savetrans.php?");
+            URL url = new URL("http://heiderjeffer.com/member/savetrans.php?");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setReadTimeout(10000);
             conn.setConnectTimeout(15000);

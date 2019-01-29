@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
     private String username;
     private String password;
     private ProgressDialog pDialog;
-    private String login_url = "http://anjandash.com/member/login.php"; // ******
+    private String login_url = "http://heiderjeffer.com/member/login.php"; // ******
     private SessionHandler session;
 
     @Override

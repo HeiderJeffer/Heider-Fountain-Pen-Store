@@ -56,10 +56,19 @@ public class MainActivity extends AppCompatActivity {
     private static final String KEY_PASSWORD = "password";
     private static final String KEY_EMPTY = "";
 
-    private String products_url = "http://anjandash.com/member/getproducts.php"; // ******
+    private String products_url = "http://heiderjeffer.com/member/getproducts.php"; // ******
 
     @SuppressLint("ClickableViewAccessibility")
     @Override
+    // 1.	MainActivity
+    //In MainActivity we have:
+    //1.	OnCreate function that we use to set the layout of theMainActivity.
+    //2.	The Layout of the MainActivity is grid layout.
+    //3.	Add the tool bar
+    //4.	It will check if there is internet
+    //5. and If there is internet then It will check in the Main Database If there Product,
+    // New Product , removed product,,,etc.
+    //6. It will Update the card
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -116,6 +125,8 @@ public class MainActivity extends AppCompatActivity {
                 })
         );
 
+
+        //checks and sets products from the local database
 
         mWordViewModel = ViewModelProviders.of(this).get(ProductViewModel.class);
         mWordViewModel.getAllProducts().observe(this, new Observer<List<Products>>() {
@@ -252,6 +263,10 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
 
         context = MainActivity.this;
+        // If some body close the app we want to be sure that all the items are in the card and nothing changes
+        // or if new items are added then it will be updated.
+        // Then if the user come back to the app then this function (onResume) it will check whether if there is
+        // a new product or deleted product
         // CHECK FOR NEW ITEMS
         // DELETE ITEM IN SHARED PREF
         if(isNetworkAvailable()){

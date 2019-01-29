@@ -74,7 +74,7 @@ public class CheckoutActivity extends AppCompatActivity {
     private static final String KEY_MESSAGE = "message";
     private static final String KEY_USERNAME = "username";
     private static final String KEY_PASSWORD = "password";
-    private String products_url = "http://anjandash.com/member/getproducts.php"; // ******
+    private String products_url = "http://heiderjeffer.com/member/getproducts.php"; // ******
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -229,79 +229,7 @@ public class CheckoutActivity extends AppCompatActivity {
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
 
-//    @Override
-//    protected void onStart() {
-//        super.onStart();
-//
-//        context = CheckoutActivity.this;
-//        // CHECK FOR NEW ITEMS
-//        // DELETE ITEM IN SHARED PREF
-//        if(isNetworkAvailable()){
-//            checkProd();
-//        }
-//        Toast.makeText(getApplicationContext(),
-//                "onstart!", Toast.LENGTH_SHORT).show();
-//
-//        final ProductListAdapter adapter = new ProductListAdapter(this);
-//        mWordViewModel = ViewModelProviders.of(this).get(ProductViewModel.class);
-//        mWordViewModel.getAllProducts().observe(this, new Observer<List<Products>>() {
-//            @Override
-//            public void onChanged(@Nullable final List<Products> products) {
-//                // Update the cached copy of the words in the adapter.
-//                adapter.setProducts(products);
-//                checkProd();
-//            }
-//        });
-//    }
-//
-//    @Override
-//    protected void onRestart() {
-//        super.onRestart();
-//
-//        context = CheckoutActivity.this;
-//        // CHECK FOR NEW ITEMS
-//        // DELETE ITEM IN SHARED PREF
-//        if(isNetworkAvailable()){
-//            checkProd();
-//        }
-//
-//        Toast.makeText(getApplicationContext(),
-//                "onrestart!", Toast.LENGTH_SHORT).show();
-//
-//        final ProductListAdapter adapter = new ProductListAdapter(this);
-//        mWordViewModel = ViewModelProviders.of(this).get(ProductViewModel.class);
-//        mWordViewModel.getAllProducts().observe(this, new Observer<List<Products>>() {
-//            @Override
-//            public void onChanged(@Nullable final List<Products> products) {
-//                // Update the cached copy of the words in the adapter.
-//                adapter.setProducts(products);
-//                checkProd();
-//            }
-//        });
-//
-//        Intent intent = getIntent();
-//
-//        if(intent.hasExtra("GOTOEXTRA")){
-//            String extra = intent.getStringExtra("GOTOEXTRA");
-//            if(extra.equals("CART")){
-//                Toast.makeText(getApplicationContext(),
-//                        "WE SHOULD DO SOMETHING", Toast.LENGTH_SHORT).show();
-//
-//                checkProd();
-//
-//                Intent myIntent = new Intent(CheckoutActivity.this, CheckoutActivity.class);
-//                CheckoutActivity.this.startActivity(myIntent);
-//                finish();
-//            }
-//
-//        }else{
-//            // Do something else
-//        }
-//    }
-//
-//    /* (non-Javadoc)
-//     * @see android.app.Activity#onResume()
-//     */
+
     @Override
     protected void onResume() {
         super.onResume();
