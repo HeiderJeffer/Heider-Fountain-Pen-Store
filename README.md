@@ -21,6 +21,8 @@ The user can add to the cart which does not involve an external database connect
 - The application should be robust [DONE]
 Appropriate error handling is done in all parts of the application and the user is prompted with error messages when necessary. Also, the security in communicating with the stripe api is taken into consideration which grants it more robustness as the communication is securely tokenized.  
 
+- Speed Up F##king Android Studio
+
 1. Gradle Properties:
 org.gradle.daemon=true
 org.gradle.parallel=true
