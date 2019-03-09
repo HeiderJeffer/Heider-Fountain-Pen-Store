@@ -20,3 +20,33 @@ The user can add to the cart which does not involve an external database connect
 
 - The application should be robust [DONE]
 Appropriate error handling is done in all parts of the application and the user is prompted with error messages when necessary. Also, the security in communicating with the stripe api is taken into consideration which grants it more robustness as the communication is securely tokenized.  
+
+1. Gradle Properties:
+org.gradle.daemon=true
+org.gradle.parallel=true
+
+2. Plugin. Uncheck:
+1. Remove CVS Integration
+2. Git Integration
+3. Subversion Integration
+
+3. Gradle:
+Check: Offline Work
+
+4. Compiler
+Add:  --offline
+
+5. Go to File > Settings > Editor > File Types 
+and in field Ignore files and folders add this: Thumbs.db;
+
+
+Android For Linux:
+
+
+sudo apt install qemu-kvm.
+
+ls -al /dev/kvm
+
+grep kvm /etc/group
+
+sudo adduser yourname kvm
