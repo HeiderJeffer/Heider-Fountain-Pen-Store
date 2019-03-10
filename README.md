@@ -24,7 +24,9 @@ Appropriate error handling is done in all parts of the application and the user 
 - Speed Up F##king Android Studio
 
 1. Gradle Properties:
-org.gradle.daemon=true
+
+org.gradle.daemon=true 
+
 org.gradle.parallel=true
 
 2. Plugin. Uncheck:
