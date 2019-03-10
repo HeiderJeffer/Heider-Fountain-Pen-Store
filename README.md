@@ -46,8 +46,7 @@ and in field Ignore files and folders add this: Thumbs.db;
 
 Android For Linux:
 
-
-sudo apt install qemu-kvm.
+sudo apt install qemu-kvm
 
 ls -al /dev/kvm
 
