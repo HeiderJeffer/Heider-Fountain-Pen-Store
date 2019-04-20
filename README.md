@@ -53,3 +53,6 @@ ls -al /dev/kvm
 grep kvm /etc/group
 
 sudo adduser yourname kvm
+
+66. . (I also uninstalled Android SDK Build-Tools, but I'm not all sure if that step was necessary.)
+Go to this link: https://github.com/…/download/v7.2.0/haxm-windows_v7_2_0.zip 
