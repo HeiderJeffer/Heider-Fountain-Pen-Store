@@ -77,3 +77,4 @@ ls -al /dev/kvm
 grep kvm /etc/group
 sudo adduser yourname kvm
 ```
+#########################################################################
