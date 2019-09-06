@@ -52,7 +52,7 @@ We create  Superuser folder (root: ‘sudo su’ then ‘./studio.sh’ or sudo 
 # Google Login
 Start Integrating Google Sign-In into Your Android App 
 Testing  The project have a Mock test for add/delete product.
-![alt text](https://github.com/HeiderJeffer/Heider-Fountain-Pen-Store/blob/master/images%20%26%20staff/2.png)
+![alt text](https://github.com/HeiderJeffer/Heider-Fountain-Pen-Store/blob/master/images%20%26%20staff/7.png)
 # Data
 All products, images, transaction, are stored on phpmyadmin outside the android studio  
 ![alt text](https://github.com/HeiderJeffer/Heider-Fountain-Pen-Store/blob/master/images%20%26%20staff/4.png)
