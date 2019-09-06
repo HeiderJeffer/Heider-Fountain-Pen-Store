@@ -1,7 +1,7 @@
 # Heider Fountain Pen Store (Open Source - Free Software)
-# Android E-Commerce Shopping App  
-# Heider Jeffer 
-# GitHub: https://github.com/HeiderJeffer/fps19112018
+- Android E-Commerce Shopping App  
+- Heider Jeffer 
+- GitHub: https://github.com/HeiderJeffer/fps19112018
 # Thanks
 I wanted to thank Anjan Karmakar for taking time from his busy schedule  for offering his assistance  to developed this project.
 # Heider Fountain Pen Store
@@ -31,21 +31,25 @@ All products, images, transaction, are stored on phpmyadmin outside the android 
 # Improve Android Studio
 ### Gradle Properties:
 copy/paste the following:
-* org.gradle.daemon=true
-* org.gradle.parallel=true
+```
+org.gradle.daemon=true
+org.gradle.parallel=true
+```
 
 ### Plugin. Uncheck:
-* Remove CVS Integration
-* Git Integration
-* Subversion Integration
+- Remove CVS Integration
+- Git Integration
+- Subversion Integration
 
 ### Setting:
-* Gradle: Check: Offline Work
-* Compiler Add: --offline
-* Go to File > Settings > Editor > File Types and in field Ignore files and folders add this: Thumbs.db;
+- Gradle: Check: Offline Work
+- Compiler Add: --offline
+- Go to File > Settings > Editor > File Types and in field Ignore files and folders add this: Thumbs.db;
 # Linux:
-* Terminal as root copy/paste the following
-+ sudo apt install qemu-kvm
-+ ls -al /dev/kvm
-+ grep kvm /etc/group
-+ sudo adduser yourname kvm
+- Terminal as root copy/paste the following
+```
+sudo apt install qemu-kvm
+ls -al /dev/kvm
+grep kvm /etc/group
+sudo adduser yourname kvm
+```
