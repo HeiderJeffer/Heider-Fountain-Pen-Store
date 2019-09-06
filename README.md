@@ -44,8 +44,8 @@ copy/paste the following:
 * Compiler Add: --offline
 * Go to File > Settings > Editor > File Types and in field Ignore files and folders add this: Thumbs.db;
 # Linux:
-Terminal as root copy/paste the following
-sudo apt install qemu-kvm
-ls -al /dev/kvm
-grep kvm /etc/group
-sudo adduser yourname kvm
+* Terminal as root copy/paste the following
++ sudo apt install qemu-kvm
++ ls -al /dev/kvm
++ grep kvm /etc/group
++ sudo adduser yourname kvm
