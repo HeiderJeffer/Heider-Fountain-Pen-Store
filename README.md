@@ -29,9 +29,9 @@ Testing  The project have a Mock test for add/delete product.
 All products, images, transaction, are stored on phpmyadmin outside the android studio  
 
 # Improve Android Studio
-## Gradle Properties:
-### org.gradle.daemon=true
-org.gradle.parallel=true
+1. Gradle Properties:
+2. org.gradle.daemon=true
+3. org.gradle.parallel=true
 
 Plugin. Uncheck:
 Remove CVS Integration
