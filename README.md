@@ -45,7 +45,9 @@ Shopping cart The user can add to the cart which does not involve an external da
 To configure a Google API Console project, click the button below, and specify your app's package name when prompted. You will also need to provide the SHA-1 hash of your signing certificate. See Authenticating Your Client for information. 
 
 # Linux Another Extra level of Security
-We create  Superuser folder (root: ‘sudo su’ then ‘./studio.sh’ or sudo -i then ‘studio.sh’) to run the project, online compiler is off and online Gradle is off .These steps are so important to avoid or at least to minimize the Data-Collection, Spayware, Buggies Android Update and other dirty crape made by Google Devs and Google’s partners.     	 
+We create  Superuser folder (root: ‘sudo su’ then ‘./studio.sh’ or sudo -i then ‘studio.sh’) to run the project, online compiler is off and online Gradle is off .These steps are so important to avoid or at least to minimize the Data-Collection, Spayware, Buggies Android Update and other dirty crape made by Google Devs and Google’s partners.    
+![alt text](https://github.com/HeiderJeffer/Heider-Fountain-Pen-Store/blob/master/images%20%26%20staff/6.png)
+
 
 # Google Login
 Start Integrating Google Sign-In into Your Android App 
