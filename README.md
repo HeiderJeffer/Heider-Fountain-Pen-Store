@@ -78,4 +78,3 @@ grep kvm /etc/group
 sudo adduser yourname kvm
 ```
 ....
-n
