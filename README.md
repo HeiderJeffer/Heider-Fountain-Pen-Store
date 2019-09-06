@@ -58,6 +58,7 @@ All products, images, transaction, are stored on phpmyadmin outside the android 
 ![alt text](https://github.com/HeiderJeffer/Heider-Fountain-Pen-Store/blob/master/images%20%26%20staff/4.png)
 ![alt text](https://github.com/HeiderJeffer/Heider-Fountain-Pen-Store/blob/master/images%20%26%20staff/5.png)
 # Improve Android Studio
+![alt text](https://github.com/HeiderJeffer/Heider-Fountain-Pen-Store/blob/master/images%20%26%20staff/8.png)
 ### Gradle Properties:
 copy/paste the following:
 ```
