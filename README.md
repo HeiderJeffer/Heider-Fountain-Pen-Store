@@ -29,20 +29,20 @@ Testing  The project have a Mock test for add/delete product.
 All products, images, transaction, are stored on phpmyadmin outside the android studio  
 
 # Improve Android Studio
-1. Gradle Properties:
-2. org.gradle.daemon=true
-3. org.gradle.parallel=true
+### Gradle Properties:
+copy/paste the following:
+* org.gradle.daemon=true
+* org.gradle.parallel=true
 
-Plugin. Uncheck:
-Remove CVS Integration
-Git Integration
-Subversion Integration
+### Plugin. Uncheck:
+* Remove CVS Integration
+* Git Integration
+* Subversion Integration
 
-# Setting:
-Gradle: Check: Offline Work
-Compiler Add: --offline
-Go to File > Settings > Editor > File Types and in field Ignore files and folders add this: Thumbs.db;
-
+### Setting:
+* Gradle: Check: Offline Work
+* Compiler Add: --offline
+* Go to File > Settings > Editor > File Types and in field Ignore files and folders add this: Thumbs.db;
 # Linux:
 Terminal as root copy/paste the following
 sudo apt install qemu-kvm
