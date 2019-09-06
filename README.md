@@ -7,6 +7,8 @@ I wanted to thank Anjan Karmakar for taking time from his busy schedule  for off
 # Heider Fountain Pen Store
 is  Free and open-source software application that used Android Studio to build an  E-Commerce Shopping. Heider Fountain Pen Store is Free and open-source software which mean Free like Freedom not Free Like a Free Beer, therefore we publish the source code of this app in github so anyone is free to modify, contribute, study the code of our project to make the app running in the way that he/she/or they like or to sell app,,,etc  (no license, no copy-right,,,etc).
 
+![alt text](https://github.com/HeiderJeffer/Heider-Fountain-Pen-Store/blob/master/images%20%26%20staff/1.png)
+
 # Running the project:
 - As a root open terminal and goto /home/heider/android-studio/bin, and run the following command:
 ```
