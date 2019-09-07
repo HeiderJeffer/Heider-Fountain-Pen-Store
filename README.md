@@ -15,8 +15,8 @@ is  Free and open-source software application that used Android Studio to build 
 ./stduio.sh
 ```
 # Requirments
-- Debian GNU/Linux (highly  recommend it)
-- Android Studio 3.4 (Version  3.4 Highly recommand it)
+- Debian GNU/Linux (highly  recommend it) [Download: https://www.debian.org/distrib/]
+- Android Studio 3.4 from Android Studio download archives download Version  3.4 Highly recommand it [https://developer.android.com/studio/archive] 
 - Git
 ```
 aptitude update
