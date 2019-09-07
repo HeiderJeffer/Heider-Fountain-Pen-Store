@@ -1,5 +1,4 @@
-# Heider Fountain Pen Store Project 
-### Open Source and Free Software Project
+# Heider Fountain Pen Store. Project:Open Source - Free Software.
 - Android E-Commerce Shopping App  
 - Heider Jeffer 
 - GitHub: https://github.com/HeiderJeffer/Heider-Fountain-Pen-Store
