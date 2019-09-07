@@ -37,7 +37,7 @@ aptitude install sublime-text
 ```
 aptitude install bluefish
 ```
-Libreoffice
+- Libreoffice
 ```
 aptitude insatll libreoffice
 ```
