@@ -17,6 +17,13 @@ is  Free and open-source software application that used Android Studio to build 
 # Requirments
 - Debian GNU/Linux (highly  recommend it) [Download: https://www.debian.org/distrib/]
 - Android Studio 3.4 from Android Studio download archives download Version  3.4 Highly recommand it [https://developer.android.com/studio/archive] 
+- linux: Dependencies & Configure hardware acceleration for the Android Emulator:
+```
+sudo apt install qemu-kvm
+ls -al /dev/kvm
+grep kvm /etc/group
+sudo adduser yourname kvm
+```
 - Git
 ```
 aptitude update
@@ -75,12 +82,3 @@ org.gradle.parallel=true
 - Gradle: Check: Offline Work
 - Compiler Add: --offline
 - Go to File > Settings > Editor > File Types and in field Ignore files and folders add this: Thumbs.db;
-# Linux:
-- Terminal as root copy/paste the following
-```
-sudo apt install qemu-kvm
-ls -al /dev/kvm
-grep kvm /etc/group
-sudo adduser yourname kvm
-```
-******************************************************************************************************************
