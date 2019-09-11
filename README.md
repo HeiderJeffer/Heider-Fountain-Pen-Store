@@ -27,7 +27,7 @@ sudo adduser yourname kvm
 - Git
 ```
 aptitude update
-aptitude install git-core
+apt-get install git-core
 ```
 - Sublime 
 ```
