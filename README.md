@@ -3,7 +3,7 @@
 - Heider Jeffer 
 - GitHub: https://github.com/HeiderJeffer/Heider-Fountain-Pen-Store
 # Thanks
-I wanted to thank Anjan Karmakar for taking time from his busy schedule  for offering his assistance  to developed this project.
+Big thanks go to Anjan Karmakar for taking time from his busy schedule  for offering his assistance  to developed this project.
 # Heider Fountain Pen Store
 is  Free and open-source software application that used Android Studio to build an  E-Commerce Shopping.
 - The user can see the catalog of pens offline and add to cart even if there is no internet.
